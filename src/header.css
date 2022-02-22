@@ -1,0 +1,28 @@
+
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: grid;
+    grid-template-columns:repeat(8, 100px);
+    grid-template-rows: repeat(5, 20px);
+    background-color: whitesmoke;
+    width:100%;
+    height: auto;
+}
+.header-logo{
+width: 180px;
+background-color: whitesmoke;
+grid-column-start: 3;
+grid-row-start: 1;
+cursor: pointer;
+}
+.header-titulo {
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif!important;
+    grid-column-start: 6;
+    grid-row-start: 3;
+    cursor: pointer;
+}
