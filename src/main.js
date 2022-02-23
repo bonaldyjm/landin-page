@@ -1,18 +1,22 @@
 import React from 'react';
 import './main.css';
+import perrosin from './assets/img/perrosin.png'
+import alfin from './assets/img/alfin.png'
 
 
 function Main () {
     return (
         <div id='contenedor'>
-            <div>
-            <span>PERRO</span> 
-            <input className='input-perro' type="radio"></input>
+            <div className='caja-perro'> 
+            <img src={perrosin} className='imagen-animal'></img>
+            <input className='input-animal' type="radio"></input>
+            <span className='span-animal'>PERRO</span>
             </div>
-            <div>
-            <span className='input-gato'>GATO</span>
-            <input type="radio"></input>
-            </div>
+            <div className='caja-gato'>
+            <img src={alfin} className='imagen-animal'></img>
+            <input className='input-animal' type="radio"></input> 
+            <span className='span-animal'>GATO</span>
+                 </div>
         <input className='input-nombre'></input>
         <span className='span-nombre'>Nombre</span>
         <input className='input-raza'></input>

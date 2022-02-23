@@ -7,7 +7,7 @@ function Header() {
         <div id='container'>
         <img src={RUS2} className={"header-logo"}></img>
         
-        <h1 className='header-titulo'> Inicio </h1>;
+        <h1 className='header-titulo'> Inicio </h1>
         </div>
     );
 }

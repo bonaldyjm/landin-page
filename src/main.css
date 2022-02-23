@@ -1,6 +1,6 @@
 #contenedor {
     display: grid;
-    grid-template-columns: repeat(8, 200px);
+    grid-template-columns: repeat(6, 220px);
     grid-template-rows: repeat(7, 100px);
 }
 input{
@@ -10,9 +10,9 @@ input{
 }
 
 button {
-grid-column-start: 4;
-grid-column-end: 6;
-grid-row-start: 6;
+grid-column-start: 5;
+grid-column-end: 7;
+grid-row-start: 7;
 cursor: pointer;
 background-color: #ffa500;
 color: white;
@@ -23,8 +23,9 @@ margin-right: 30px;
 }
 
 .input-fecha{
-    grid-row-start: 5;
-    grid-column-start: 3;
+    grid-row-start: 6;
+    grid-column-start: 4;
+    margin-left: 100px;
     background-clip: padding-box;
     font-size: 1rem;
     font-weight: 400;
@@ -36,9 +37,11 @@ margin-right: 30px;
     border-radius: 0.25rem;
 }
 .span-fecha{
-    grid-row-start:4 ;
-    grid-column-start: 3;
-    margin-top: 50px;
+    grid-row-start:5 ;
+    grid-column-start: 4;
+    grid-column-end:6 ;
+    margin-left: 100px;
+    margin-top: 70px;
     cursor: default;
     font-family: 'Fira Sans', sans-serif
     !important;
@@ -46,8 +49,9 @@ margin-right: 30px;
     font-size: 1rem;
 }
 .input-raza{
-    grid-row-start: 4;
+    grid-row-start: 5;
     grid-column-start: 5;
+    margin-left: 150px;
     background-clip: padding-box;
     font-size: 1rem;
     font-weight: 400;
@@ -59,8 +63,9 @@ margin-right: 30px;
     border-radius: 0.25rem;
 }
 .span-raza{
-    grid-row-start:3 ;
+    grid-row-start:4 ;
     grid-column-start: 5;
+    margin-left: 150px;
     margin-top: 70px;
     cursor: default;
     font-family: 'Fira Sans', sans-serif
@@ -70,8 +75,9 @@ margin-right: 30px;
 }
 
 .input-nombre{
-    grid-row-start: 4;
-    grid-column-start: 3;
+    grid-row-start: 5;
+    grid-column-start: 4;
+    margin-left: 100px;
     background-clip: padding-box;
     font-size: 1rem;
     font-weight: 400;
@@ -83,23 +89,66 @@ margin-right: 30px;
     border-radius: 0.25rem;   
 }
 .span-nombre{
-    grid-row-start:3 ;
-    grid-column-start: 3;
+    grid-row-start:4 ;
+    grid-column-start: 4;
+    margin-left: 100px;
     margin-top: 70px;
     cursor: default;
-    font-family: 'Fira Sans', sans-serif
-    !important;
+    font-family: 'Fira Sans', sans-serif;
     color:#284F60;
     font-size: 1rem;
 }
 
 .h1-info{
-    grid-row-start:2 ;
-    grid-column-start:4;
-    grid-column-end: 6;
+    grid-row-start:3 ;
+    grid-column-start:5;
+    grid-column-end: 7;
     margin-top: 100px;
     font-size: 20px;
-    font-family: 'Fira Sans', sans-serif
-    !important;
-    color: #284F60 !important;
+    font-family: 'Fira Sans', sans-serif;
+    color: #284F60;
+}
+
+
+.input-animal{
+   margin-bottom: 200px;
+   margin-left: 45px;
+  
+}
+.span-animal{
+margin-left: 5px;
+color: black;
+position: absolute;
+
+}
+
+.caja-perro{
+    margin-left: 120px;
+    height: 10rem;
+    width: 10rem;
+    border: solid;
+    border-radius: 29px;
+    border-color: orange;
+    border-width: 3px;
+    background-color:#DFF5FF;
+    grid-row-start:2;
+    grid-column-start:4;
+}
+
+.caja-gato {
+    margin-left: 120px;
+    height: 10rem;
+    width: 10rem;
+    border: solid;
+    border-radius: 29px;
+    border-color: orange;
+    border-width: 3px;
+    background-color: #DFF5FF;
+    grid-row-start:2;
+    grid-column-start:5;
+}
+
+.imagen-animal{
+    height: 120px;
+    padding: 1rem;
 }
