@@ -1,6 +1,6 @@
 #container-footer {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows:repeat(1, 1fr) ;
+    grid-template-columns: repeat(10, 150px);
+    grid-template-rows:repeat(1, 70px) ;
    background: #0e12cb;
 }
