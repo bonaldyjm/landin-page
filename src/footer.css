@@ -1,7 +1,6 @@
-#footer {
-    position: absolute;
-    bottom: 5px;
-   background-color: #0e12cb;
-   width: 100%;
-   height: 50px;
+#container-footer {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows:repeat(1, 1fr) ;
+   background: #0e12cb;
 }
